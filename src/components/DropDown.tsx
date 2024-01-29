@@ -9,7 +9,7 @@ interface Props {
 const DropDown: React.FC<Props> = ({ text, children }) => {
   const [showDropDown, setShowDropDown] = useState(false);
 
-  const onClick = (event: MouseEvent) => {
+  const onClick = () => {
     setShowDropDown((prevState: boolean) => !prevState);
   };
 
