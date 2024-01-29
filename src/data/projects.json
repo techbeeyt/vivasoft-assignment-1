@@ -1,0 +1,49 @@
+[
+  {
+    "image": "/images/miftahshop.png",
+    "title": "Miftah Shop",
+    "description": "Miftashop is a book selling e-commerce website.",
+    "technology": ["Next JS", "MySQL"],
+    "colors": ["rgb(234 88 12)", "rgb(251 207 232)", "rgb(75 85 99)"],
+    "hosting": "VPS/ubuntu 22.04, nginx, certbot and tmux",
+    "url": "https://miftahshop.com",
+    "link_placeholder": "miftahshop.com"
+  },
+  {
+    "image": "/images/",
+    "title": "Miftah Shop",
+    "description": "Miftashop is a book selling e-commerce website.",
+    "technology": ["Next JS", "MySQL"],
+    "colors": [""],
+    "hosting": "",
+    "url": "https://miftahshop.com",
+    "link_placeholder": "miftahshop.com"
+  },
+  {
+    "title": "Miftah Shop",
+    "description": "Miftashop is a book selling e-commerce website.",
+    "technology": ["Next JS", "MySQL"],
+    "colors": [""],
+    "hosting": "",
+    "url": "https://miftahshop.com",
+    "link_placeholder": "miftahshop.com"
+  },
+  {
+    "title": "Miftah Shop",
+    "description": "Miftashop is a book selling e-commerce website.",
+    "technology": ["Next JS", "MySQL"],
+    "colors": [""],
+    "hosting": "",
+    "url": "https://miftahshop.com",
+    "link_placeholder": "miftahshop.com"
+  },
+  {
+    "title": "Miftah Shop",
+    "description": "Miftashop is a book selling e-commerce website.",
+    "technology": ["Next JS", "MySQL"],
+    "colors": [""],
+    "hosting": "",
+    "url": "https://miftahshop.com",
+    "link_placeholder": "miftahshop.com"
+  }
+]
