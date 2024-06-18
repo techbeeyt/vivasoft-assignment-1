@@ -76,8 +76,10 @@ export default function Header() {
         </div>
       </div>
       <div className="ml-auto _center gap-6">
-        <Button text="Login" className="" variant={BtnVariants.Outline} />
-        <Button text="Sign Up" className="" />
+        <a href="#buy_service">
+          <Button text="Hire Me" className="" variant={BtnVariants.Outline} />
+        </a>
+        <Button text="Buy Subscription" className="" />
       </div>
     </div>
   );

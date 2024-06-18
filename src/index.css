@@ -7,3 +7,7 @@
     @apply flex justify-center items-center;
   }
 }
+
+body {
+  scroll-behavior: smooth;
+}
