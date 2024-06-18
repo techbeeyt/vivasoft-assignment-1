@@ -10,17 +10,17 @@ const Contact = () => {
   };
   const handleSubmit = async () => {
     setIsLoading(true);
-    setFormValues({
-      ...formValues,
-      access_key: "a0044f69-d8de-4b88-a635-314678b1537e",
-    });
+
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
       },
-      body: JSON.stringify(formValues),
+      body: JSON.stringify({
+        ...formValues,
+        access_key: "a0044f69-d8de-4b88-a635-314678b1537e",
+      }),
     });
 
     const result = await res.json();

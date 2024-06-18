@@ -8,13 +8,16 @@ const AboutMe = () => {
       <div className="">
         <div className="flex justify-center items-start gap-10">
           <div className="col-span-4">
-            <div className="w-80 h-80 bg-gray-100 rounded-md shadow-md"></div>
+            <div className="w-80 h-80 bg-gray-100 rounded-md shadow-md">
+              <img src="/images/photo.jpg" className="w-full h-full" />
+            </div>
           </div>
           <div className="w-1/2">
             <div>
               <span className="text-3xl font-semibold">
-                I'm <span className="underline ">Mst. Gannatul Maua,</span> a
-                <span className="text-pink-500"> Programmer</span>. I work from
+                I'm{" "}
+                <span className="underline font-serif">Mst Gannatul Maua,</span>{" "}
+                a<span className="text-pink-500"> Programmer</span>. I work from
                 home, finding global jobs online and collaborating with diverse
                 teams worldwide.
               </span>
@@ -100,6 +103,7 @@ const AboutMe = () => {
               </h1>
               <p className="mt-1">
                 Email: mmcse.cf@gmail.com <br />
+                Phone: +8801725542435 <br />
                 Address: Bamondi, Gangni, Meherpur
               </p>
             </div>
